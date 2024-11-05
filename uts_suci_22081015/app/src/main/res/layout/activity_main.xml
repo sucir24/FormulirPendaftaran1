@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="formulir pendaftaran:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Nama" />
+
+    <EditText
+        android:id="@+id/editTextemail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="email" />
+
+    <EditText
+        android:id="@+id/editTextnomor"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="nomor hp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Jenis Kelamin:" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pilih hobi:" />
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="masak" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="make up" />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="olahraga" />
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim" />
+
+</LinearLayout>
